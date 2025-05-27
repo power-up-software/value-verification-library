@@ -1,0 +1,11 @@
+//file:noinspection GroovyAssignabilityCheck
+//file:noinspection GrUnresolvedAccess
+ext {
+    moduleName = 'value-verification-library-util'
+}
+
+apply from: "${rootDir}/${configurationPath}/shared-gradle-files/util.gradle"
+
+
+dependencies {
+}

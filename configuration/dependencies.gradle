@@ -1,0 +1,17 @@
+//file:noinspection GrUnresolvedAccess
+ext.buildDependencies = [
+        checkstyleVersion            : '10.23.0',
+        githubSpotbugsSpotbugsVersion: '4.9.3', //group: 'com.github.spotbugs', name: 'spotbugs'
+]
+
+ext.dependencyVersions = [
+        slf4jSlf4jApiVersion            : '2.0.17', //group: 'org.slf4j', name: 'slf4j-api'
+]
+
+ext.testLibDependencies = [
+        junitJupiterJunitJupiterApiVersion   : '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-api'
+        junitJupiterJunitJupiterEngineVersion: '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
+        junitJupiterJunitJupiterParamsVersion: '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-params'
+        mockitoMockitoCoreVersion            : '5.18.0', //group: 'org.mockito', name: 'mockito-core'
+        mockitoMockitoJunitJupiterVersion    : '5.18.0', //group: 'org.mockito', name: 'mockito-junit-jupiter'
+]
