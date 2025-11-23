@@ -12,10 +12,10 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.powerup.value.verification.util;
+package com.powerupsoftwareengineering.value.verification.util;
 
 /**
  * The StringVerificationUtil class provides utility methods for checking if a string is empty or not. Unlike the is empty method for a
