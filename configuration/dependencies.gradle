@@ -1,7 +1,7 @@
 //file:noinspection GrUnresolvedAccess
 ext.buildDependencies = [
         checkstyleVersion            : '12.1.2',
-        githubSpotbugsSpotbugsVersion: '4.9.8', //group: 'com.github.spotbugs', name: 'spotbugs'
+        githubSpotbugsSpotbugsVersion: '4.9.3', //group: 'com.github.spotbugs', name: 'spotbugs'
 ]
 
 ext.dependencyVersions = [
@@ -9,9 +9,9 @@ ext.dependencyVersions = [
 ]
 
 ext.testLibDependencies = [
-        junitJupiterJunitJupiterApiVersion   : '6.1.0-M1', //group: 'org.junit.jupiter', name: 'junit-jupiter-api'
-        junitJupiterJunitJupiterEngineVersion: '6.1.0-M1', //group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
-        junitJupiterJunitJupiterParamsVersion: '6.1.0-M1', //group: 'org.junit.jupiter', name: 'junit-jupiter-params'
-        mockitoMockitoCoreVersion            : '5.21.0', //group: 'org.mockito', name: 'mockito-core'
-        mockitoMockitoJunitJupiterVersion    : '5.21.0', //group: 'org.mockito', name: 'mockito-junit-jupiter'
+        junitJupiterJunitJupiterApiVersion   : '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-api'
+        junitJupiterJunitJupiterEngineVersion: '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
+        junitJupiterJunitJupiterParamsVersion: '5.13.0-M3', //group: 'org.junit.jupiter', name: 'junit-jupiter-params'
+        mockitoMockitoCoreVersion            : '5.18.0', //group: 'org.mockito', name: 'mockito-core'
+        mockitoMockitoJunitJupiterVersion    : '5.18.0', //group: 'org.mockito', name: 'mockito-junit-jupiter'
 ]
