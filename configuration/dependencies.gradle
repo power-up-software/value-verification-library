@@ -5,7 +5,7 @@ ext.buildDependencies = [
 ]
 
 ext.dependencyVersions = [
-        githubSpotbugsSpotbugsVersion: '4.10.1', //group: 'com.github.spotbugs', name: 'spotbugs'
+        githubSpotbugsSpotbugsVersion: '4.10.2', //group: 'com.github.spotbugs', name: 'spotbugs'
         slf4jSlf4jApiVersion         : '2.0.18', //group: 'org.slf4j', name: 'slf4j-api'
 ]
 
