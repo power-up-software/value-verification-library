@@ -5,14 +5,14 @@ ext.buildDependencies = [
 ]
 
 ext.dependencyVersions = [
-        githubSpotbugsSpotbugsVersion: '4.10.2', //group: 'com.github.spotbugs', name: 'spotbugs'
+        githubSpotbugsSpotbugsVersion: '4.10.3', //group: 'com.github.spotbugs', name: 'spotbugs'
         slf4jSlf4jApiVersion         : '2.0.18', //group: 'org.slf4j', name: 'slf4j-api'
 ]
 
 ext.testLibDependencies = [
-        junitJupiterJunitJupiterApiVersion   : '6.1.1', //group: 'org.junit.jupiter', name: 'junit-jupiter-api'
-        junitJupiterJunitJupiterEngineVersion: '6.1.1', //group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
-        junitJupiterJunitJupiterParamsVersion: '6.1.1', //group: 'org.junit.jupiter', name: 'junit-jupiter-params'
+        junitJupiterJunitJupiterApiVersion   : '6.1.2', //group: 'org.junit.jupiter', name: 'junit-jupiter-api'
+        junitJupiterJunitJupiterEngineVersion: '6.1.2', //group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
+        junitJupiterJunitJupiterParamsVersion: '6.1.2', //group: 'org.junit.jupiter', name: 'junit-jupiter-params'
         mockitoMockitoCoreVersion            : '5.23.0', //group: 'org.mockito', name: 'mockito-core'
         mockitoMockitoJunitJupiterVersion    : '5.23.0', //group: 'org.mockito', name: 'mockito-junit-jupiter'
 ]
